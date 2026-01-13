@@ -37,12 +37,12 @@ if (Math.random() < 0.1) {
     expo(a , b);
 }
 else{
-    console.log("Addition of two numbers is")
+    console.log("Addition of two numbers is :")
     sum(a , b);
-    console.log("Multiplication of two numbers is")
+    console.log("Multiplication of two numbers is :")
     mul(a , b);
-    console.log("Subtraction of two numbers is")
+    console.log("Subtraction of two numbers is :")
     sub(a , b);
-    console.log("division of two numbers is")
+    console.log("division of two numbers is :")
     div(a , b);
 }
