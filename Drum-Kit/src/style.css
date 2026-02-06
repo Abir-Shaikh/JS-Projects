@@ -15,7 +15,7 @@ body{
 
     /* for bg image */
 
-    background-image: url("/Drum-Kit/images/bg.png");
+    background-image: url("/Drum-Kit/images/b-199.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,7 +32,7 @@ body{
 
 .container h1{
     margin-bottom: 40px;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
 }
 
 .keys{
@@ -59,6 +59,21 @@ body{
     cursor: pointer;
 }
 
+.playing{
+    transform: scale(1.1);
+    border-color: #ffc600;
+    /* box-shadow: 0 0 70px #ffc600; */
+    box-shadow:
+    0 0 5px #ffc600,
+    0 0 20px #ffc600,
+    0 0 40px #ffc600;
+    transform: scale(1.15) rotate(360deg);
+}
+
+.key:active {
+  transform: scale(0.95);
+}
+
 .key kbd{
     font-size: 32px;
     font-weight: 500;
@@ -70,3 +85,4 @@ body{
     color: #ffc600;
     margin-top: 5px;
 }
+
