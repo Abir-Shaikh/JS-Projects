@@ -15,7 +15,7 @@ body{
 
     /* for bg image */
 
-    background-image: url("/Drum-Kit/images/b-199.jpg");
+    background-image: url("../images/b-199.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
